@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Spring5</title>
+      <link href="/2022/04/17/Spring5/"/>
+      <url>/2022/04/17/Spring5/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">UserService</span>()&#123;</span><br><span class="line">    <span class="comment">//业务层</span></span><br><span class="line">    <span class="comment">//实现功能</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">UserDao</span>()&#123;</span><br><span class="line">    <span class="comment">//dao层实现定义功能</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">UserDaoImpl</span>()&#123;</span><br><span class="line">    <span class="comment">//dao的实现类，实现数据库</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>IOC控制反转：将对象的创建不再使用new的方式而是通过ioc容器来创建。</p><p>xml配置文件和注解两种方式</p><p>AOP面向切面:业务功能模块化，让代码解耦。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven</title>
+      <link href="/2022/04/17/Maven/"/>
+      <url>/2022/04/17/Maven/</url>
+      
+        <content type="html"><![CDATA[<p>在实际的生产环境中，我们会用到大量的jar包的依赖，使用maven能帮助我们更好的管理jar包。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>javaweb后端开发</title>
+      <link href="/2022/04/17/Web%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+      <url>/2022/04/17/Web%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java知识</title>
+      <link href="/2022/04/17/Java%E7%9F%A5%E8%AF%86/"/>
+      <url>/2022/04/17/Java%E7%9F%A5%E8%AF%86/</url>
+      
+        <content type="html"><![CDATA[<p>Java知识概述：</p><h2 id="1、编程语言核心结构"><a href="#1、编程语言核心结构" class="headerlink" title="1、编程语言核心结构"></a>1、编程语言核心结构</h2><p>变量，基本语法，分支，循环，数组 ,…</p><h2 id="2、面向对象核心逻辑"><a href="#2、面向对象核心逻辑" class="headerlink" title="2、面向对象核心逻辑"></a>2、面向对象核心逻辑</h2><p>OOP，封装，继承，多态，接口 ,…</p><h2 id="3、开发JAVASE高级应用程序"><a href="#3、开发JAVASE高级应用程序" class="headerlink" title="3、开发JAVASE高级应用程序"></a>3、开发JAVASE高级应用程序</h2><p>异常，集合，，I&#x2F;O流，多线程，反射，网络编程</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">test</span><span class="params">()</span>&#123;</span><br><span class="line">    System.out.printf(<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/04/17/JDBC/"/>
+      <url>/2022/04/17/JDBC/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JDBC核心内容"><a href="#JDBC核心内容" class="headerlink" title="JDBC核心内容"></a>JDBC核心内容</h1><h2 id="DAO的概念"><a href="#DAO的概念" class="headerlink" title="DAO的概念"></a>DAO的概念</h2><h2 id="JDBC：基于java语言操作数据库的一种规范"><a href="#JDBC：基于java语言操作数据库的一种规范" class="headerlink" title="JDBC：基于java语言操作数据库的一种规范"></a>JDBC：基于java语言操作数据库的一种规范</h2><h2 id="数据库连接池（开发中常用到的）："><a href="#数据库连接池（开发中常用到的）：" class="headerlink" title="数据库连接池（开发中常用到的）："></a>数据库连接池（开发中常用到的）：</h2><h2 id="事务的概念"><a href="#事务的概念" class="headerlink" title="事务的概念"></a>事务的概念</h2><h2 id="事务的ACID属性"><a href="#事务的ACID属性" class="headerlink" title="事务的ACID属性"></a>事务的ACID属性</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于java后端的学习路线</title>
+      <link href="/2022/04/17/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+      <url>/2022/04/17/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="大部分以尚硅谷学习路线"><a href="#大部分以尚硅谷学习路线" class="headerlink" title="大部分以尚硅谷学习路线"></a>大部分以尚硅谷学习路线</h1><h2 id="大处着眼"><a href="#大处着眼" class="headerlink" title="大处着眼"></a>大处着眼</h2><p>Java基础部分 –&gt; Mysql基础 –&gt; JDBC核心技术 –&gt;maven –&gt; javaweb –&gt;spring –&gt;springmvc –&gt; mybatis –&gt; SSM框架 –&gt; redis –&gt;mybatisplus –&gt; spring注解驱动开发 –&gt;zookeeper –&gt; dubbo –&gt; 消息中间件 –&gt; rabbitMQ –&gt;rocketMQ –&gt;springboot –&gt;springcloud</p><h2 id="小处着手"><a href="#小处着手" class="headerlink" title="小处着手"></a>小处着手</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
