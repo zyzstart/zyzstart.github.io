@@ -31,8 +31,8 @@
     
     <entry>
       <title>Spring5</title>
-      <link href="/archives/undefined.html"/>
-      <url>/archives/undefined.html</url>
+      <link href="/archives/7f09f5da.html"/>
+      <url>/archives/7f09f5da.html</url>
       
         <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">UserService</span>()&#123;</span><br><span class="line">    <span class="comment">//业务层</span></span><br><span class="line">    <span class="comment">//实现功能</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">UserDao</span>()&#123;</span><br><span class="line">    <span class="comment">//dao层实现定义功能</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">UserDaoImpl</span>()&#123;</span><br><span class="line">    <span class="comment">//dao的实现类，实现数据库</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>IOC控制反转：将对象的创建不再使用new的方式而是通过ioc容器来创建。</p><p>xml配置文件和注解两种方式</p><p>AOP面向切面:业务功能模块化，让代码解耦。</p>]]></content>
       
@@ -44,8 +44,8 @@
     
     <entry>
       <title>Maven</title>
-      <link href="/archives/undefined.html"/>
-      <url>/archives/undefined.html</url>
+      <link href="/archives/7273cdc.html"/>
+      <url>/archives/7273cdc.html</url>
       
         <content type="html"><![CDATA[<p>在实际的生产环境中，我们会用到大量的jar包的依赖，使用maven能帮助我们更好的管理jar包。</p>]]></content>
       
@@ -57,8 +57,8 @@
     
     <entry>
       <title>javaweb后端开发</title>
-      <link href="/archives/undefined.html"/>
-      <url>/archives/undefined.html</url>
+      <link href="/archives/688eec7f.html"/>
+      <url>/archives/688eec7f.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
